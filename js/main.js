@@ -1,4 +1,4 @@
-'use strict'
+/*'use strict'
 
 import  {getFilmes, getFilme} from "./filmes.js"
 
@@ -30,4 +30,4 @@ function criarCard (filme) {
         };
         preencherContainer ()
     
-
+*/
