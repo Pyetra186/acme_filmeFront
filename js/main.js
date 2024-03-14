@@ -1,6 +1,6 @@
-/*'use strict'
+'use strict'
 
-import  {getFilmes, getFilme} from "./filmes.js"
+import  {getFilmes, getFilme, postfilme} from "./filmes.js"
 
 function criarCard (filme) {
     const card = document.createElement('div')
@@ -30,4 +30,10 @@ function criarCard (filme) {
         };
         preencherContainer ()
     
-*/
+const filme = {
+    
+        
+      
+}
+
+postfilme (filme)
