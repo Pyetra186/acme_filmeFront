@@ -7,8 +7,12 @@ function criarCard (filme) {
     const contanierFilme = document.getElementById('contanierFilme')
     contanierFilme.classList.add(
         'flex',
-        'gap-10',
-        'content-center'
+        'gap-2',
+        'p-8',
+        'cursor-pointer',
+        'mb-16',
+        
+
         
     )
 
@@ -20,6 +24,16 @@ function criarCard (filme) {
         'text-white',
         'font-bold',
         'font-sans',
+        'bg-purple-950',
+        'font-light',
+        'text-justify',
+        'border-b-8',
+        'border-purple-950',
+        'border-l-8',
+        
+       
+        
+        
         
     )
 
@@ -28,10 +42,11 @@ function criarCard (filme) {
     const capaFilme = document.createElement('img')
     capaFilme.src = filme.foto_capa
     capaFilme.classList.add(
-        'border-violet',
-        'border-2',
         'h-60',
-        'w-100',
+        'w-96',
+        'border-b-4',
+        'border-purple-950',
+        'hover:scale-96'
     )
 
 
@@ -41,6 +56,13 @@ function criarCard (filme) {
         'text-xs',
         'text-white',
         'font-sans',
+        'w-96',
+        'bg-purple-950',
+        'rounded-b-lg',
+        'font-light',
+        'border-l-8',
+        'border-purple-950',
+        'border-b-8'        
         
         
         

@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./src/output.css" rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="./img/star.png">
     <script src="./js/main.js" type="module" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Acme Filmes</title>
    
 </head>
-<body class="bg-gradient-to-r from-violet-950 ... ">
+<body class=" 
+bg-gradient-to-r 
+bg-cover 
+bg-no-repeat
+bg-fixed 
+bg-gradient-to-r from-violet-950 ... 
+  ">
 
     <div class="
      m-9
@@ -20,6 +27,7 @@
      <div class="grid grid-cols-3 ps-52 ">
          <img  src="./img/icone-pesquisar.png" alt=" pesquisar" class=" grid-cols-subgrid ps-80 pt-2 ">
          <input type="search" id="search" name="search" class="w-full border-solid border-zinc-50 rounded-md  placeholder:p-7 pt-2 pb-1 pl-4 " placeholder="Buscar por mais filmes..." required>
+         <img src="./img/icone-usuarrio.png" alt="" class="grid-cols-subgrid ps-96 pt-2">
      </div>
 
     </div>
@@ -35,18 +43,24 @@
     <img class="py-20" src="./img/icone-kids.png" alt="">    
 </div>
 
- <main class="
+<main class="
+ flex 
+ w-5/5
+ flex-row 
+ flex-wrap
+ gap-x-36
+ gap-y-14
+ relative
+ left-60
+ bottom-[750px]
+ " 
+ id="contanierFilme"> 
+</main>
      
- ">
-     <div class="flex justify-around"  id="contanierFilme" ></div>
-     
 
- </main>
 
-    <h1 class="text-3xl font-bold underline text-transparent">
-        Hello world!
-      </h1>
-
+    
+   
      
 
    
