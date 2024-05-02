@@ -74,6 +74,9 @@ function criarCard (filme) {
 
     card.append(capaFilme,titulo, texto)
     contanierFilme.appendChild(card)
+    card.addEventListener('click',()=> {
+        window.location.href='./info.html?id='+filme.id
+    })
 
     return card, contanierFilme
         
