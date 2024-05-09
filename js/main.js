@@ -111,5 +111,5 @@ function criarCard (filme) {
       
 }*/
 
-deletefilme(5)
+//deletefilme(5)
 //postfilme (filme)
